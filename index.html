@@ -18,12 +18,13 @@
   <link rel="icon" href="favicon.svg">
   <link rel="image_src" href="https://secure.gravatar.com/avatar/9099f60d60fb5b0d96fc589877deb350.png?size=375">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
     body {
       margin: 0;
       font-family: "Merriweather", Georgia, serif;
-      font-weight: 300;
+      font-size: 22px;
       background: #000000;
       color: #ffffff;
     }
@@ -32,30 +33,28 @@
       color: #000000;
     }
     #bg {
-      display: grid;
-      justify-items: center;
+      display: flex;
+      justify-content: center;
       align-items: center;
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      overflow: hidden;
     }
     .wrapper {
       max-width: 700px;
-      padding: 3rem;
+      padding: 48px;
     }
     .one-liner {
-      margin-top: 2rem;
+      margin-top: 32px;
       margin-bottom: 0;
     }
-    .one-liner:first-of-type {
-      margin-top: 0;
-    }
     .hero {
-      font-weight: 700;
+      font-family: "Century Gothic Paneuropean", Georgia, serif;
+      font-size: 50px;
       margin-top: 0;
     }
     .list-entry {
       font-family: "Fira Code", monospace;
-      font-size: 0.875rem;
+      font-size: 18px;
     }
     .list-pointer {
       opacity: 0.5;
@@ -73,7 +72,7 @@
   <div id="bg">
     <div class="wrapper">
       <h1 class="hero">Hi, I'm Aquarius!</h1>
-      <p class="one-liner">A full stack developer & data miner. You can find me here —</p>
+      <p class="one-liner">A full-stack developer, data miner & Counter-Strike aficionado.<br>You can find me here —</p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
         <span>twitter:
@@ -88,11 +87,17 @@
       </p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
+        <span>discord:
+          <a href="https://discord.com/users/633075565229899786" aria-label="Discord" target="_blank">Aquarius#1357</a>
+        </span>
+      </p>
+      <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
         <span>email:
           <a href="mailto:hi@aquaismissi.ng" aria-label="Email">hi@aquaismissi.ng</a>
         </span>
       </p>
-      <p class="one-liner">Some projects that I've worked on —</p>
+      <!-- <p class="one-liner">Some projects that I've worked on —</p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
         <span>telegram bot dedicated to everything CS:GO related:
@@ -108,10 +113,10 @@
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
         <span>⑅ ⑈ ⑆ ⑁ ⑉ ⑂ ⑇ ⑀ ⑄ ⑃
-          <!-- <a href="" aria-label="" target="_blank"></a> -->
-        </span>
+          <a href="" aria-label="" target="_blank"></a>
+        </span> -->
       </p>
-      <p class="one-liner">Currently working @ <a href="" aria-label="" target="">[REDACTED]</a>.</p>
+      <p class="one-liner">Currently working @ <a href="" aria-label="" target="">[REDACTED]</a></p>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
